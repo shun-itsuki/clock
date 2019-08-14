@@ -20,6 +20,7 @@ span{
   /* 横幅を親のdivの85%にする */
   width: 85%;
   /* フォントをグーグルのものにする() */
+  font-family: 'Oleo Script Swash Caps', cursive;
 }
 
 /* id = "clock_date" のspan要素*/
