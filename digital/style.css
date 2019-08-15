@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap');
+
 body{
   /* 文字色を白に */
   color: white;
   /* 背景色を黒に */
-  background-color: black;
+  background-color: #3399CC;
 }
 
 /* id="clock_frame"のdiv要素 */
@@ -18,9 +20,9 @@ span{
   /* 親要素のdivの内部で右寄せに配置させる */
   float: right;
   /* 横幅を親のdivの85%にする */
-  width: 85%;
-  /* フォントをグーグルのものにする() */
-  font-family: 'Oleo Script Swash Caps', cursive;
+  width: 90%;
+  /* Googleフォント */
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 /* id = "clock_date" のspan要素*/
@@ -30,6 +32,7 @@ span#clock_date{
   /* フォントの大きさを親要素であるdivで設定されたサイズの0.5倍 */
   font-size: 0.5em;
   /* 右のパディングの幅を親要素であるdivで設定されたフォントサイズの0.5倍にする */
+  padding-right: 0.5em;
 }
 
 /* id = "clock_time" のspan要素*/
